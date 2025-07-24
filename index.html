@@ -93,7 +93,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -113,7 +113,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -133,7 +133,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -153,7 +153,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -173,7 +173,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -193,7 +193,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -213,7 +213,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -233,7 +233,7 @@
               20 USD
             </h5>
             <button
-              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5"
+              class="inter-font font-semibold text-white bg-[#E95A08] w-full py-5 btn"
             >
               ADD TO CART
             </button>
@@ -417,5 +417,13 @@
         </figure>
       </div>
     </footer>
+    <script>
+      let btn = document.querySelectorAll(".btn");
+      btn.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          alert("Flower Added To Cart");
+        });
+      });
+    </script>
   </body>
 </html>
